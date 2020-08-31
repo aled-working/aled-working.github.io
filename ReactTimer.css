@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap");
+
+html {
+  font-family: "Poppins", sans-serif;
+  /* font-family: sans-serif; */
+  color: grey;
+  font-size: 1em;
+  width: 100%;
+  background-color: #fff;
+  padding-bottom: 10em;
+  font-weight: 600;
+}
+.title {
+  color: #95c494;
+  font-size: 1.7em;
+  line-height:1.1em;
+  padding-bottom: 0.5em;
+  font-weight: 600;
+}
+.startTimeOptions {
+  padding-bottom: 2em;
+}
+.name {
+  color: #95c494;
+  color: red;
+}
+
+.hilite {
+  color: orange;
+}
+
+.faint {
+  color: #dadada;
+}
+.timeline {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1em;
+}
+.step, .oven {
+  font-weight: bold;
+  margin: 0.2em 0;
+  padding: 1em 0;
+  background-color: #fff;
+}
+.summary {
+  font-size: .7em;
+}
+
+.oven,
+.warning,
+.notyet,
+.getready,
+.startnow,
+.started,
+.done {
+  /* vino */
+  width: 30%;
+  min-width: 15em;
+  padding: 5%;
+  margin: 2%;
+  display: inline-block;
+  border-radius: 20px;
+  box-shadow: 0px 5px 12px -4px rgba(111, 111, 111, 0.3);
+}
+
+.notyet {
+  color: lightgrey;
+}
+.getready {
+  background: orange;
+  color: white;
+}
+.strong {
+  color:darkgray
+}
+.startnow {
+  color: red;
+}
+.started {
+  color: red;
+}
+.ended {
+  color: grey;
+}
+.done {
+  color: grey;
+  text-decoration: line-through;
+  font-weight: normal;
+  text-align: right;
+}
+.oven {
+  background:red;
+  color:white
+}
+.warning {
+  background:red;
+  color:white
+}
+.stepmins {
+  color: #777;
+}
+.done .stepmins {
+  opacity: 0;
+}
+
+button {
+  color: #fff;
+  background: #3399ff;
+  border: none;
+  padding: 1.8em;
+  margin: 1em 0;
+  width: 100%;
+  border-radius: 12px;
+
+  -webkit-box-shadow: 0px 5px 12px -4px rgba(51, 153, 255, 1);
+  -moz-box-shadow: 0px 5px 12px -4px rgba(51, 153, 255, 1);
+  box-shadow: 0px 5px 12px -4px rgba(51, 153, 255, 1);
+}
+button.x {
+  color: #fff;
+  background: lightgray;
+  border: none;
+  padding: .2em .5em;
+  margin: 0 0;
+  border-radius: 12px;
+  width:auto;
+
+  -webkit-box-shadow:none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+input[type="text"],
+input[type="number"],
+input {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 1em;
+  color: grey;
+  padding: 1em;
+  border: none;
+  border-top: 1px solid #ddd;
+  border-radius: 12px;
+  background: #f6f6f6;
+}
+input.action {
+  max-width: 12em;
+}
+input.mins {
+  max-width: 3em;
+}
+
+.bigTime {
+  font-size: 2em;
+}
+
+.back {
+  background: white;
+  color: grey;
+  width: auto;
+  box-shadow: none;
+  display: block;
+}
+.prompt {
+  float:right;
+  opacity:0.5;
+}
